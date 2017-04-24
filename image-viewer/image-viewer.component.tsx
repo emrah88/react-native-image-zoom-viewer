@@ -477,7 +477,7 @@ export default class ImageViewer extends React.Component<typings.PropsDefine, ty
                     {ImageElements}
                 </Animated.View>
 
-                {this.props.imageUrls.length > 1 &&
+                {this.props.imageUrls.length > 0 &&
                 this.props.renderIndicator(this.state.currentShowIndex + 1, this.props.imageUrls.length)
                 }
 
